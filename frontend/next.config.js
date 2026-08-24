@@ -4,6 +4,11 @@ const nextConfig = {
   images: {
     domains: ['localhost'],
   },
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  }
 }
 
 module.exports = nextConfig
